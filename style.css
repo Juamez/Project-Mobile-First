@@ -131,8 +131,8 @@ main {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: 2.6rem
-    color: var(var(--a-black));
+    line-height: 2.6rem;
+    color: var(--a-black);
 }
 
 .main-exchange-container p{
