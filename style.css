@@ -228,7 +228,7 @@ main {
 }
 
 .currency-table--date {
-    width: 190px;
+    width: 200px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
@@ -307,7 +307,7 @@ main {
 }
 
 .commissions-table--date {
-    width: 190px;
+    width: 200px;
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
@@ -421,7 +421,7 @@ background-image: url(./assets/icons/dollar-sign.svg);
 .bitcoin-img-container {
     width: 100%;
     min-width: 320px;
-    height: 76vh;
+    height: 70vh;
     background-image: url(./assets/imgs/bitcoinbaby\ 1.jpg);
     background-position: center;   
     background-size: cover;
