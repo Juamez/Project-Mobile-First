@@ -474,7 +474,7 @@ background-image: url(./assets/icons/dollar-sign.svg);
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
-    margin: 0 40px;
+    overflow-x: hidden;
 }
 
 .plans-container--card {
@@ -484,20 +484,21 @@ background-image: url(./assets/icons/dollar-sign.svg);
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 5px 0;
+    margin: 50px 30px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
 
-.recommended {
+.plans-container--card .recommended {
     position: absolute;
     width: 120px;
     height: 31px;
     padding: 6px;
     top: -15px;
     left: calc(50% - 60px);
+    margin: 0;
     font-size: 1.2rem;
     background-color: var(--bitcoin-orange);
     border-radius: 8px;
@@ -512,11 +513,11 @@ background-image: url(./assets/icons/dollar-sign.svg);
     color: black;
 }
 
-.plan-card--price {
+.plans-container--card .plan-card--price {
     padding: 5px 0;
     font-size: 5.2rem;
     font-weight: bold;
-    line-height: 5.3rem;
+    line-height: 6.3rem;
     color: black;
     position: relative;
 }
